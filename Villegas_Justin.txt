@@ -1,1 +1,4 @@
-The classes I have chosen to do is Employees, Properties and, Tenants
+Selected classes-
+Employees
+Properties
+Tenants
