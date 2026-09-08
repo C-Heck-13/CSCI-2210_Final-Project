@@ -1,0 +1,6 @@
+Project: 
+Option B: Real Estate Property Management System
+
+Selected Classes:
+-Rent Entity
+-Customer Feedback Entity
