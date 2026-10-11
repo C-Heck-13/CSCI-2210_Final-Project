@@ -1,0 +1,3 @@
+Added new connections to the Manager class
+Worked on the Manager box, Manager options, Staff, Tenant, and tenant options
+Helped with and tidyed up some of the lines/connections 
