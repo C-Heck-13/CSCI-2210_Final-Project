@@ -1,0 +1,13 @@
+Connor Heck
+CSCI 2210 Final Project Stage 2
+
+Contributions:
+-Created Google Doc page for Stage 2 draft brainstorming
+-Created outline list on Google Doc to add ideas to
+-Added Private Variables and Public Functions to Payments/Rent entitiy
+-Added Private Variables and Public Functions to Customer Feedback entity
+-Added to map list for entity interactions
+-Added Private Variables and Public Functions to Properties
+-Created initial LucidChart diagram for UML creation
+-Created Manager, Staff, Property, User, UserManager, Lease blocks in UML
+-Made proofreading edits, set a number of relationship lines between entities in diagram
