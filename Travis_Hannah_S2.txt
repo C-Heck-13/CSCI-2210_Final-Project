@@ -1,0 +1,8 @@
+Hannah Travis: Stage 2 Contributions
+
+Contributions-
+-Initially defined our Lease, and MaintencaseRequests classes
+-met with instructor for initial feedback
+-Defined our propertyManager and LeaseManager classes
+-Created muiltiple UML blocks: MainMenu, StaffSubMenu, StaffOptions, TenantSubMenu, TenantOptions, ManagerSubMenu, CustomerFeedback, LeaseManager, PropertyManager.
+-Made relationship lines between menu, submenu, and options classes.
