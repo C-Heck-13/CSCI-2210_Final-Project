@@ -1,3 +1,4 @@
 Added new connections to the Manager class
 Worked on the Manager box, Manager options, Staff, Tenant, and tenant options
-Helped with and tidyed up some of the lines/connections 
+Helped with and tidied up some of the lines/connections 
+I double checked some of the boxes
