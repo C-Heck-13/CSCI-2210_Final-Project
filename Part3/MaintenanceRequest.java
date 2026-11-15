@@ -3,6 +3,7 @@ public class MaintenanceRequest {
     private String dateOfRequest;
     private String status;
     private String issue;
+    private Staff assignedStaff;
     
     /**
      * Constructor to initalize values
@@ -29,6 +30,7 @@ public class MaintenanceRequest {
         System.out.println("Date Requested: " + this.dateOfRequest);
         System.out.println("Status: " + this.status);
         System.out.println("Issue: " + this.issue);
+        System.out.println("Assigned Staff:   " + (assignedStaff != null ? assignedStaff.getRole() : "Unassigned"));
         System.out.println("=========================================");
     }
 
@@ -56,6 +58,22 @@ public class MaintenanceRequest {
         return issue;
     }
 
+    /** 
+     * gets the assigned staff
+     * @return 
+     */
+    public Staff getAssignedStaff() {
+        return assignedStaff;
+    }
+
+    /**
+     * sets the assinged staff
+     * @param assignedStaff 
+     */
+    public void setAssignedStaff(Staff assignedStaff) {
+        this.assignedStaff = assignedStaff;
+    }
+    
     /**
      * Sets the date the request was submitted
      * @param DateOfRequest 

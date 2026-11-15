@@ -41,13 +41,12 @@ public class StaffSubMenu implements Menu {
     @Override
     public void displayOptions() {
         int option;
-        do{
-            System.out.println("1. View Aviable Maintenance Requests");
-            System.out.println("2. View Assigned Maintenance Requests");
-            System.out.println("3. Update Assigned Maintenance Requests");
-            System.out.println("4. View Personal Info");
-            System.out.println("5. Return to Main Menu");
-            System.out.println("Enter the number for your action:");       
+        do {
+            System.out.println("1. View Assigned Maintenance Requests");
+            System.out.println("2. Update Assigned Maintenance Requests");
+            System.out.println("3. View Personal Info");
+            System.out.println("4. Return to Main Menu");
+            System.out.println("Enter the number for your action:");
             option = scanner.nextInt();
             scanner.nextLine();
             processOption(option);
@@ -57,28 +56,27 @@ public class StaffSubMenu implements Menu {
     /**
      * Implemented method that process the user choice and executed the proper
      * options/output.
-     * @param option int value that holds user input, from display options method
+     *
+     * @param option int value that holds user input, from display options
+     * method
      */
     @Override
     public void processOption(int option) {
         switch (option) {
             case 1:
-                staffOptions.AviableMaintenanceReq();
+                staffOptions.viewMaintenanceReq();
                 break;
             case 2:
-                staffOptions.AssignedMaintenanceReq();
+                staffOptions.updateRequest();
                 break;
             case 3:
-                staffOptions.UpdateMaintenanceReq();
-                break;
-            case 4:
                 staffOptions.viewPersonalInfo();
                 break;
-            case 5:
+            case 4:
+                System.out.println("Exiting staff menu.");
                 break;
             default:
-                System.out.print("Invalid option. Please try again.");
-                showMenu();
+                System.out.println("Invalid option. Please try again.");
                 break;
         }
     }
