@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+* Class that manages Leases defined in Lease Class
+* author: Hannah Travis
+*/
 public class LeaseManager {
     private List<Leases> leases;
 
