@@ -1,3 +1,7 @@
+/**
+* Class that defines MaintenanceRequest
+* author: Hannah Travis
+*/
 public class MaintenanceRequest {
     private Property address;
     private String dateOfRequest;
