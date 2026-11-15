@@ -70,7 +70,7 @@ public class Staff extends User{
      */
     @Override
     public void displayInfo() {
-        System.out.println("Staff ID: " + getId());
+        System.out.println("Staff ID: " + getID());
         System.out.println("Name: " + getName());
         System.out.println("Phone: " + getPhone());
         System.out.println("Role: " + this.role);
