@@ -12,7 +12,7 @@ public class StaffManager {
      * @param staffList, list of staff
      */
     public StaffManager() {
-        this.staffList = new ArrayList<>;
+        this.staffList = new ArrayList<>();
     }
     
     /**
