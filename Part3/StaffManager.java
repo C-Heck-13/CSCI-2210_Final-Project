@@ -11,8 +11,8 @@ public class StaffManager {
      * Constructor to initialize inital variables
      * @param staffList, list of staff
      */
-    public StaffManager(List<Staff> staffList) {
-        this.staffList = staffList;
+    public StaffManager() {
+        this.staffList = new ArrayList<>;
     }
     
     /**
