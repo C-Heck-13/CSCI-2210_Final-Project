@@ -203,11 +203,58 @@ public class ManagerOptions {
     }
 
     public void assignRequest() {
+        List<MaintenanceRequest> allRequests = MaintenanceRequestManager.getAllRequests();
+        List<Staff> staffList = manager.getStaffList();
 
+        System.out.println("=== Maintenance Requests ===");
+        MaintenanceRequestManager.displayNumberedList(allRequests);
+        System.out.println("Select the number of request you want to assign: ")
+        int reqChoice = scanner.nextInt();
+        scanner.nextLine();
+
+        if (reqChoice < 1 || reqChoice > allRequests.size()){
+            System.out.println("Invalid request.")
+            return;
+        }
+        MaintenanceRequest selectedRequest = allRequests.get(reqChoice -1);
+
+        System.out.println("=== Staff Members ===")
+        staffManager.displayNumberedList();
+        System.out.println("Select the number of the Staff member: ")
+        int staffChoice = scanner.nextInt();
+        scanner.nextLine();
+
+        if (staffChoice < 1 || staffChoice > allStaff.size()){
+            System.out.println("Invalid Staff request.")
+            return;
+        }
+        Staff selectedStaff = allStaff.get(staffChoice -1);
+
+        this.manager.assignRequest(selectedRequest, selectedStaff);   
     }
     
     public void closeRequest() {
+        List<MaintenanceRequest> allRequests = MaintenanceRequestManager.getAllRequests();
+        if (allRequests.isEmpty()){
+            System.out.println("No request available.");
+            return;
+        }
+        System.out.println("=== Maintenance Requests ===");
+        MaintenanceRequestManager.displayNumberedList(allRequests);
 
+        System.out.println("Select the number of request you want to close: ")
+        int reqChoice = scanner.nextInt();
+        scanner.nextLine();
+        if (reqChoice < 1 || reqChoice > allRequests.size()){
+            System.out.println("Invalid request.")
+            return;
+        }
+
+        MaintenanceRequest selectedRequest = allRequests.get(reqChoice -1);
+        selectedRequest.setStatus("Closed");
+        System.out.println("Maintenance request has been closed");
+        
+        
     }
 
     public void viewFeedback() {
