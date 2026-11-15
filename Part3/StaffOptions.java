@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+/**
+* Class that executes Staff Options from StaffSubMenu
+* author: Hannah Travis
+*/
 public class StaffOptions {
     
     private final Scanner scanner;
