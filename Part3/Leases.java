@@ -1,3 +1,7 @@
+/**
+* Class that defines Leases
+* author: Hannah Travis
+*/
 public class Leases {
     private Manager manager;
     private Tenant tenant;
