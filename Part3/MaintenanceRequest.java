@@ -1,7 +1,3 @@
-/**
-* Class that defines MaintenanceRequest
-* author: Hannah Travis
-*/
 public class MaintenanceRequest {
     private Property address;
     private String dateOfRequest;
@@ -34,7 +30,11 @@ public class MaintenanceRequest {
         System.out.println("Date Requested: " + this.dateOfRequest);
         System.out.println("Status: " + this.status);
         System.out.println("Issue: " + this.issue);
-        System.out.println("Assigned Staff:   " + (assignedStaff != null ? assignedStaff.getRole() : "Unassigned"));
+        if (this.assignedStaff != null) {
+            System.out.println("Assigned Staff:   " + this.assignedStaff.getName() + " (" + this.assignedStaff.getRole() + ")");
+        } else {
+            System.out.println("Assigned Staff:   Unassigned");
+        }
         System.out.println("=========================================");
     }
 
