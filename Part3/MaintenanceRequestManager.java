@@ -12,7 +12,7 @@ public class MaintenanceRequestManager {
     }
     
     public void addRequeset(MaintenanceRequest request){
-        
+        this.requests.add(request);
     }
     
     public List<MaintenanceRequest> getAllRequests(){
