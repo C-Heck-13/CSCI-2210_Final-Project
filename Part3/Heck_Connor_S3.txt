@@ -1,0 +1,27 @@
+Connor Heck
+CSCI 2210 1AW Final Project Stage 3
+
+Contributions:
+-Created Google Doc page for Stage 3 draft brainstorming 
+-Added feedback notes and to-do outline to Google Doc
+-Created outline list on Google Doc to add ideas to
+-Sorted uploaded GitHub Repository files into subfolders
+-Created main method java file (PropertyManagementSystem)
+-Created Menu interface
+-Created MainMenu java file
+-Created and updated ManagerSubMenu java file
+-Team leader meeting on 11/4/26
+-Led group meetings on 11/2/26, 11/14/26, and 11/15/26
+-Created Rent java file
+-Created CustomerFeedback java file
+-Created CustomerFeedbackManager java file
+-Created ManagerManager java file
+-Made updates to UML to reflect added classes
+-Created ManagerOptions class
+-Created ReadMe Text File
+-Performed significant and extensive troubleshooting and code cleanup across all 25 classes
+	-Got the system classes to a functional point
+-Ran initial tests of code functionality
+-Collected Manager-side screenshots for user guide
+-Assisted with UML update and reorganization
+-Created and uploaded UML PDF
