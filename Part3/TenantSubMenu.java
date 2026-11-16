@@ -58,8 +58,7 @@ public class TenantSubMenu implements Menu {
         System.out.println("Please select a user: ");
         do {
             for(int i = 0; i < tenants.size(); i++) {
-                System.out.println((i + 1) + tenants.get(i).getName());
-            }
+            System.out.println((i + 1) + ". " + tenants.get(i).getName());            }
             System.out.print("User: ");
             selection1 = scanner.nextInt();
             scanner.nextLine();
