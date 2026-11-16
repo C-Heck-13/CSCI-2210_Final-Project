@@ -1,0 +1,8 @@
+Hannah Travis_CSCI 2210 Stage 3
+Work I did:
+Coded the initial StaffSubmenu, StaffOptions, Staff, StaffManager, Leases, LeaseManager, MaintenanceRequestManager,and MaintenanceRequests classes before revisions and debugging.
+Assited in codeing the assignRequest and closeRequest methods in ManagerOptions.
+Updated most of our UML diagram, to match classes and show new classes.
+Reviewed code, did light debugging work.
+Helped gather screen shots for Staff menu and its actions. 
+Created and uploaded "Files in Stage3 Folder SS" Pdf.
